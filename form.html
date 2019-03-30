@@ -1,0 +1,97 @@
+<!DOCTYPE html><html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Google form</title>
+    <link rel="stylesheet" href="css/form.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+  <body>
+    <div class="parent">
+      <!-- career objective -->
+      <div class="career">
+        <h1>Career Objective</h1>
+          <input type="text" name="career" id="career" placeholder=" enter career objective">
+      </div>
+
+<!-- personal details -->
+<div class="details">
+  <h1>Personal Details</h1>
+  <input type="text" name="name" id="name" placeholder="enter name"><br>
+  <input type="text" name="name" id="mobile" placeholder="mobile"><br>
+  <input type="text" name="name" id="e-mail" placeholder="enter e-mail"><br>
+  <input type="text" name="name" id="address" placeholder="enter address">
+</div>
+<!-- education details -->
+<div class="details">
+  <h1>Graduation Details</h1>
+  <input type="text" name="name" id="inst" placeholder="enter institution name">
+<!-- branch -->
+<label name="branch">
+  <select  id="branch">
+    <option>select branch</option>
+    <option>cse</option>
+    <option>eee</option>
+    <option>ece</option>
+    <option>mech</option>
+    <option>civil</option>
+  </select><br>
+</label>
+  <!-- year of passing -->
+  <select id="year">
+    <option> select year</option>
+    <option>2018</option>
+    <option>2019</option>
+    <option>2020</option>
+    <option>2021</option>
+    <option>2022</option>
+  </select><br>
+  <!-- percentage -->
+  <input type="text" name="percentage" id="per" placeholder="enter percentage">
+</div>
+<div class="details">
+  <h1>Intermediate Details</h1>
+  <input type="text" name="name" id="clg" placeholder="enter institution name">
+  <select  id="cbranch">
+    <option>select branch</option>
+    <option>mpc</option>
+    <option>bipc</option>
+    <option>cec</option>
+    <option>hec</option>
+  </select>
+  <select id="cyear">
+    <option>select year</option>
+    <option>2015</option>
+    <option>2016</option>
+    <option>2017</option>
+    <option>2018</option>
+    <input type="text" name="percentage" id="cper" placeholder="enter percentage">
+</div>
+<div class="details">
+  <h1>SSC Details</h1>
+  <input type="text" name="name" id="schl" placeholder="enter institution name">
+  <select  id="board">
+    <option>select board</option>
+    <option>ssc</option>
+    <option>cbc</option>
+    <option>cbse</option>
+  </select>
+  <select id="syear">
+    <option>select year</option>
+    <option>2012</option>
+    <option>2013</option>
+    <option>2014</option>
+    <option>2015</option>
+    <input type="text" name="percentage" id="sper" placeholder="enter percentage">
+</div>
+<div class="details">
+  <h1>Skills</h1>
+  <input type="text" name="Skills" id="skills" placeholder="enter skills">
+
+</div>
+    </div>
+    <button type="button" name="button" id="button" onclick="submitdata()">SUBMIT</button>
+  </body>
+  <script type="text/javascript" src="js/main.js">
+
+  </script>
+</html>
